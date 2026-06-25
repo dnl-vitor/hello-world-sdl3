@@ -7,7 +7,8 @@ cmake_install.cmake
 CMakeCache.txt
 vcpkg-manifest-install.log
 CMakePresets.json
-
+.ninja_deps
+.ninja_log
 
 # dir
 vcpkg_installed/
