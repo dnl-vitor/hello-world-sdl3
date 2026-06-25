@@ -1,6 +1,3 @@
-# extensions
-*.bat
-
 # files
 build.ninja
 cmake_install.cmake
@@ -13,3 +10,4 @@ CMakePresets.json
 # dir
 vcpkg_installed/
 CMakeFiles/
+build/

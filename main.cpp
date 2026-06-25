@@ -18,7 +18,7 @@ int main(int args, char *argv[]){
     SDL_Window *pwindow = SDL_CreateWindow("window", windowWidth, windowHeight, 0);
     if(!pwindow){
         SDL_Log("nao foi possivel criar a tela: %s", SDL_GetError());
-        SDL_APP_FAILURE;
+        return  SDL_APP_FAILURE;
     }
 
     //cria o Renderer
