@@ -1,7 +1,5 @@
 # extensions
 *.bat
-*.ninja_deps
-*.ninja_logs
 
 # files
 build.ninja
