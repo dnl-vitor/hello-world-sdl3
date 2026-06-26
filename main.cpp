@@ -85,7 +85,7 @@ int main(int args, char *argv[]){
     
         //desenhando texto na tela
         SDL_SetRenderDrawColor(prenderer, 255, 255, 255, 255);
-        SDL_RenderDebugText(prenderer, xCentered, yCentered - 15.0f, "hello world!");
+        SDL_RenderDebugText(prenderer, xCentered, yCentered - 15.0f, "hello world! clique no link abaixo para copia-lo!");
         SDL_RenderDebugText(prenderer, xCentered, yCentered, url);
 
         //atualiza a janela com o novo frame
