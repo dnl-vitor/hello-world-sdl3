@@ -27,7 +27,7 @@ int main(int args, char *argv[]){
     
     bool running = true;
     SDL_Event event;
-    const char* url = "https://www.youtube.com/watch?v=OaQhEcea10k&list=RDOaQhEcea10k&start_radio=1";
+    const char* url = "https://www.youtube.com/watch?v=_vV_PS5q9iQ";
 
     //centralizando texto na tela
     int totalChars = strlen(url);
